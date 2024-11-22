@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url(../src/font/SFPRODISPLAYREGULAR.OTF);
+  }
+
+#root{
+    font-family: "SF Pro Display";
+}
+
+
+
+.input-fields{
+    @apply h-auto w-56 text-slate-700 rounded-sm text-center
+}
+
+.tab.active{
+    @apply border-b-blue-500 text-blue-500
+}
+
